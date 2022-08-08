@@ -13,4 +13,5 @@ def line():
     sess = tf.InteractiveSession()
     sess.run(tf.global_variables_initializer())
     print(sess.run(y))
+    
 line()
